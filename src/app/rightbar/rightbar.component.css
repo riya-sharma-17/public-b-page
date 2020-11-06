@@ -1,0 +1,31 @@
+.bton{
+    width: 100%;
+    background-color: rgb(243, 21, 95);
+    color:white;
+    border:none;
+    height: 50px;
+    margin-top: 30px;
+    font-weight: bold;
+    font-size:19px;
+}
+.circle {
+  width:25%;
+  padding:3%;
+  border-radius: 50%;
+   
+}
+.txt{
+  color:rgb(2, 3, 94);
+  font-weight: bold;
+ }
+ .icon{
+   
+  width:  22%;
+  padding:2%;
+  height: 18%;
+  border-radius: 20%;
+ }
+ .adjust{
+   margin-left: 1%;
+   position: fixed;
+ }

@@ -1,0 +1,14 @@
+<div class="adjust">
+<button type="button" class="bton">Books</button>
+<div *ngFor="let imgs of imagesArray" class="txt">
+<img  class="circle" src="{{imgs.imageURL}}" alt="icon">
+{{imgs.discription}}
+</div>
+<br/>
+<a *ngFor="let icon of social"  href="{{icon.link}}">
+   <img class="icon" src=" {{icon.image}} "alt="social-icon">
+</a>
+</div>
+
+
+ 

@@ -1,0 +1,61 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/@syncfusion/ej2/material.css";
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+@font-face {
+ 
+  font-family: "Open Sans";
+  src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+       url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+       font-style: normal;
+       font-display: block;
+  }
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+#loader {
+  color: #008cff;
+  height: 40px;
+  left: 45%;
+  position: absolute;
+  top: 45%;
+  width: 30%;
+}
+
+#code-text {
+  margin-left: 5px;
+}
+
+.code-preview {
+  margin-top: 15px;
+  font-size: 12px;
+}
+
+.h3 {
+  font-size: 14px;
+  margin: 4px;
+}
+
+.content {
+  padding: 9px;
+}
+
+.splitter-image {
+  margin: 0 auto;
+  display: flex;
+  height: 115px;
+  margin-top: 10px;
+  
+}
+
+.vertical_splitter.e-splitter.e-splitter-vertical  {
+  border: none;
+  
+}
+.e-splitter.e-splitter-horizontal .e-pane.e-pane-horizontal, .e-splitter.e-splitter-vertical .e-pane.e-pane-horizontal {
+  overflow: hidden;
+}
+
+#container {
+  margin: 20px auto;
+}

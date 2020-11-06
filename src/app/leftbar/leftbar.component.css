@@ -1,0 +1,55 @@
+/* The side navigation menu */
+.sidebar {
+  margin: 30px;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 9;
+  width: 20%;
+  background-color:rgba(238, 238, 238, 0.856) ;
+  position: fixed;
+  height: auto;
+  overflow: auto;
+  
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: rgb(2, 3, 94);
+
+  padding: 16px; 
+ font-weight: bold;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  background-color:white;
+  color:rgb(2, 3, 94);
+  font-weight: bold;
+ 
+
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  background-color: rgb(2, 3, 94);
+  color: white;
+  
+}
+
+.adjust{
+  
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
+
+
+
